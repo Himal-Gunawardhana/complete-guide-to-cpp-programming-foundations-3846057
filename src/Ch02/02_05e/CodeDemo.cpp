@@ -7,7 +7,7 @@
 int a, b = 5;
 
 int main(){
-    bool my_flag;
+    bool my_flag;  
     a = 7;
     my_flag = false;
     std::cout << "a = " << a << std::endl;
