@@ -1,27 +1,10 @@
-// Complete Guide to C++ Programming Foundations
-// Exercise 02_11
-// Type Casting Examples, by Eduardo Corpeño 
-
 #include <iostream>
-#include <cstdint>
 
-int main(){
-    int fahrenheit = 100;
-    int celsius;
-
-    celsius = (static_cast<float>(5) / 9.0) * (fahrenheit - 32);
-
-    std::cout << std::endl;
-    std::cout << "Fahrenheit: " << fahrenheit << std::endl;
-    std::cout << "Celsius   : " << celsius << std::endl;
-
-    float weight = 10.99;
-    
-    std::cout << std::endl;
-    std::cout << "Float          : " << weight << std::endl;
-    std::cout << "Integer part   : " << static_cast<int>(weight) << std::endl;
-    std::cout << "Fractional part: " << (int)((weight - (int)weight) * 10000) << std::endl;
-
-    std::cout << std::endl << std::endl;
+int main() {
+    int baseDamage = 50;
+    int strength = 20;
+    int criticalHitMultiplier = 2;
+    int damageDealt = baseDamage * (strength / 10 + 1) * criticalHitMultiplier;
+    std::cout << "Damage Dealt: " << damageDealt << std::endl;
     return 0;
 }
