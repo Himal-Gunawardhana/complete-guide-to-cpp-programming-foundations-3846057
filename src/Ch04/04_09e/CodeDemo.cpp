@@ -20,7 +20,7 @@ int main(){
     strncpy(raceResult, "And the winner is ", sizeof(raceResult) - 1);
     raceResult[sizeof(raceResult) - 1] = '\0';
 
-    strncat(raceResult, racer1, sizeof(raceResult) - strlen(raceResult) - 1);
+    strncat(raceResult, racer2, sizeof(raceResult) - strlen(raceResult) - 1);
 
     std::cout << raceResult << std::endl;
 

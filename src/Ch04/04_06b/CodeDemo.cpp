@@ -18,4 +18,5 @@ int main(){
     std::cout << "Updated index 2 element is: " << checkpoints[2] << std::endl;
     std::cout << std::endl << std::endl;
     return 0;
+    
 }

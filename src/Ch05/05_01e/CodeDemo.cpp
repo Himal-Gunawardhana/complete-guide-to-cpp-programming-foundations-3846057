@@ -7,7 +7,7 @@
 int main(){
     int score = 1023;
     bool gamePaused = false;
-    char action = 'x';
+    char action = 'w';
 
     if (score > 1000)
         std::cout << "Your score is over 1000." << std::endl;
